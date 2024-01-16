@@ -1,0 +1,48 @@
+/* mobile device  */
+@media screen and (max-width: 600.98px) {
+  .header-container {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .nav-content,
+  .menu-item ul {
+    flex-direction: column;
+    gap: 1.25rem;
+    margin-top: 1.25rem;
+  }
+  .brand-title {
+    font-size: 2rem;
+  }
+
+  /* banner section  */
+  .banner-content h1 {
+    font-size: 2rem;
+  }
+  .banner-details {
+    padding: 1.25rem 2.25rem;
+    text-align: justify;
+  }
+  .banner-content {
+    padding-top: 4rem;
+    padding-bottom: 1.25rem;
+  }
+  .search-box input,
+  .search-box select {
+    width: 172px;
+    padding: 10px;
+  }
+  .btn-primary {
+    padding: 10px 35px;
+  }
+
+  .popular-tour-section {
+    max-width: 90%;
+    margin: 100px auto;
+  }
+  .popular-tour-container {
+    flex-direction: column;
+  }
+  .popular-img {
+    width: 100%;
+  }
+}
